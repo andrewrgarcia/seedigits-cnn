@@ -1,7 +1,5 @@
 # CNN Architecture
 
-This document outlines the architecture of a Convolutional Neural Network (CNN).
-
 **Layers:**
 
 1. **Conv1:** 
