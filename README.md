@@ -23,7 +23,7 @@ If forked, replace `<username>` and `<repository-name>` with the actual GitHub u
 
 ## About SeeDigits
 
-SeeDigits is a web application where users can draw digits, and the neural network predicts the number. Check it out [here](https://seedigits.example.com).
+SeeDigits is a web application where users can draw digits, and the neural network predicts the number. Check it out [here](https://seedigits.vercel.app).
 
 ## License
 
