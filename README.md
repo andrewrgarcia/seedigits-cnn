@@ -16,7 +16,7 @@ You can use the model file in this repository to perform digit recognition tasks
 
 **Path to the ONNX model:**
 ```
-https://raw.githubusercontent.com/andrewrgarcia/seedigits-cnn/main/model/mnist_model.onnx
+https://raw.githubusercontent.com/andrewrgarcia/seedigits-cnn/main/mnist_model.onnx
 ```
 
 If forked, replace `<username>` and `<repository-name>` with the actual GitHub username and repository name.
