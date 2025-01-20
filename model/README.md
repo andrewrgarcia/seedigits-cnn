@@ -22,15 +22,25 @@
     * Kernel size: 2x2
     * Stride: 2 
 
-4. **FC1:** 
-    * Fully connected layer with 64 units
+4. **Conv3:** 
+    * Input channels: 32
+    * Output channels (filters): 64
+    * Kernel size: 3x3
+    * Stride: 1
+    * Padding: 1
     * Activation: ReLU
 
-5. **FC2:** 
-    * Fully connected layer with 10 output classes 
+5. **AvgPool (Global Pooling):**
+    * Kernel size: 3x3
+    * Stride: 3
+    * Purpose: Reduces spatial dimensions to 4x4.
 
-**Note:**
+6. **Flatten:**
+    * Converts the output of the previous layer (shape: `[batch_size, 64, 4, 4]`) into a flat vector (shape: `[batch_size, 1024]`).
 
-* ReLU stands for Rectified Linear Unit, an activation function that introduces non-linearity.
-* MaxPool performs downsampling by selecting the maximum value within each pooling window.
-* FC1 and FC2 are fully connected layers, where each neuron is connected to every neuron in the previous layer.
+7. **FC1:** 
+    * Fully connected layer with 128 units.
+    * Activation: ReLU
+
+8. **FC2:** 
+    * Fully connected layer with 10 output classes.
